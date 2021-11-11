@@ -1,0 +1,285 @@
+.container{
+    border: solid 1px black;
+    height: 1000px;
+    width: 1500px;
+    justify-content: center;
+    justify-content: space-evenly; 
+    box-shadow: 3px 3px 3px 5px rgb(134, 134, 134);  
+}
+.container1{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list{
+    font-size: 80px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    
+    color: rgb(134, 134, 134);
+    margin-left: 20px;
+}
+.task{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-feature-settings: "zero";
+    color: rgb(0, 0, 0);
+}
+body{
+    align-content: center;
+}
+#text{
+    display: flex;
+}
+.container2{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    right: 290px;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+.card{
+    border: red 1px solid;
+    height: 350px;
+    width: 275px;
+    box-shadow: 1px 1px 2px 1px indianred;
+    margin: 20px;
+    border-radius: 20px;
+}
+.addfile{
+    position: absolute;
+    top: 250px;
+    right: 500px;
+}
+.add{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 250px;
+    right: 380px;
+    font-size: 30px;
+}
+.card{
+    font-size: 30px;
+    color: rgb(250, 28, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    
+
+}
+.box1{
+    border: black 1px solid;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    top: 534px;
+    left: 330px;
+}
+.box2{
+    border: black 1px solid;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    top: 534px;
+    left: 650px;
+}
+.box3{
+    border: black 1px solid;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    top: 534px;
+    left: 965px;
+}
+.pending{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+
+
+
+.trip{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 620px;
+}
+.left{
+    border-top: 1px solid black;
+    width: 110px;
+    position: absolute;
+    top: 225px;
+    left: 470px;
+}
+.right{
+    border-top: 1px solid black;
+    width: 110px;
+    position: absolute;
+    top: 225px;
+    left: 950px;
+}
+.backbutton{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 670px;
+    justify-content: space-evenly;
+}
+.back{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.tripbox{
+    border: 1px red solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px indianred;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 400px;
+    left: 620px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+.halfline{
+    border-top: 1px solid black;
+    width: 165px;
+    position: absolute;
+    top: 50px;
+    left: 85px;
+}
+.plus{
+    position: absolute;
+    top: 240px;
+    left: 220px;
+    
+}
+
+   
+
+.p2-box{
+    border: 1px black solid;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 545px;
+    left: 670px;
+}
+.p-text{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 540px;
+    left: 680px;
+}
+
+
+/*page 3*/
+
+.blurbox{
+    border:hidden;
+    height: 800px;
+    width: 1400px;
+    background-image: url(./todo.png);
+    background-size: 1500px 700px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+
+}
+.listbox{
+    border: 1px red solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(66, 66, 66);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red ;
+    text-align: center;
+    padding-top: 20px;
+    height: 135px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+
+}
+.newlist{
+    border: 1px solid red ;
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.newadd{
+    border: 1px red solid ;
+    height: 25px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: red;
+    margin-left: 114px;
+    margin-top: 15px;
+    color: white;
+    padding-top: 2.5px;
+}
+
+/* page 4 */
+
+.blurbox1{
+    border:hidden;
+    height: 800px;
+    width: 1400px;
+    background-image: url(./item.png);
+    background-size: 1500px 700px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+
+}
+.listbox1{
+    border: 1px red solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(66, 66, 66);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red ;
+    text-align: center;
+    padding-top: 20px;
+    height: 135px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+
+}
+.newlist1{
+    border: 1px solid red ;
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.newadd1{
+    border: 1px red solid ;
+    height: 25px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: red;
+    margin-left: 114px;
+    margin-top: 15px;
+    color: white;
+    padding-top: 2.5px;
+}
